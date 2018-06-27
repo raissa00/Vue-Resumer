@@ -11,10 +11,12 @@
 
 <style>
     #topbar {
-        min-height: 30px;
         display:flex;
         justify-content: space-between;
+        align-items: center;
         padding: 16px;
+        font-size: 20px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     }
 </style>
 

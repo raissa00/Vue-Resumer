@@ -24,27 +24,29 @@ export default {
 }
 </script>
 
-<style>
-#app {
- -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-  
-  
-}
-#app>div {
-  border:1px solid red;
-}
+<style lang="scss">
+
+
+
 
 main {
   display: flex;
-  flex-direction: row;
+  flex: 1;
 
+  > #editor {
+    width: 40em;
+    margin: 16px 8px 16px 16px;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;    
+  }
  
 }
-main > #editor {
-    width: 500px;
-  }
+
+.icon {
+       width: 1em; height: 1em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }
 </style>
